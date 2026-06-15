@@ -1,6 +1,7 @@
 # AI Project
 
 AI 관련 프로젝트들을 모아둔 저장소입니다.
+
 Learn the latest AI technology by practicing it through projects
 
 ## 📚 목차

@@ -1,39 +1,52 @@
 # AI Project
 
-AI 관련 프로젝트들을 모아둔 저장소입니다.
+A collection of AI-related projects focused on LLM applications, multi-agent systems, and retrieval-augmented generation (RAG).
 
-Learn the latest AI technology by practicing it through projects
+## 📚 Table of Contents
 
-## 📚 목차
-
-- [LangGraph Project](#-langgraph-project)
-- [RAG Project](#-rag-project)
+- [🚀 LangGraph Project](#-langgraph-project)
+- [🔍 RAG Project](#-rag-project)
 
 ---
 
 ## 🚀 LangGraph Project
 
-### 프로젝트 소개
-LangGraph 기반 멀티 에이전트 시스템입니다.
+### Overview
+A multi-agent system built with LangGraph for orchestrating AI workflows and agent collaboration.
 
-### 주요 기능
+### Key Features
 - Quiz Agent
 - Explanation Agent
-- StateGraph 활용
+- StateGraph-based workflow management
+- Agent-to-Agent (A2A) communication
 
-### 기술 스택
+### Tech Stack
 - Python
 - LangGraph
 - FastAPI
+- OpenAI API
+
+### Learn More
+[View Project Details](./LangGraphProject/README.md)
 
 ---
 
 ## 🔍 RAG Project
 
-### 프로젝트 소개
-RAG(Retrieval-Augmented Generation) 기반 Q&A 시스템입니다.
+### Overview
+A Retrieval-Augmented Generation (RAG) system designed to provide accurate and context-aware responses based on external knowledge sources.
 
-### 주요 기능
-- 문서 임베딩
-- 벡터 검색
-- LLM 응답 생성
+### Key Features
+- Document Embedding
+- Vector Similarity Search
+- LLM-powered Response Generation
+- Knowledge Retrieval Pipeline
+
+### Tech Stack
+- Python
+- LangChain
+- OpenAI API
+- ChromaDB
+
+### Learn More
+[View Project Details](./RAGProject/README.md)

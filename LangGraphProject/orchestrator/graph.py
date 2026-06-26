@@ -1,15 +1,15 @@
 from langgraph.graph import StateGraph, END
 from state import State
 
-from agents.quiz_agent import quiz_agent
-from agents.explanation_agent import explanation_agent
+from clients.quiz_client import call_quiz_agent
+from clients.explanation_client import call_explanation_agent
 
 # 데이터 구조를 관리할 준비
 builder = StateGraph(State)
 
 # 노드 이름과 실행 함수 연결
-builder.add_node("quiz", quiz_agent)
-builder.add_node("explanation", explanation_agent)
+builder.add_node("quiz", call_quiz_agent)
+builder.add_node("explanation", call_explanation_agent)
 
 # 그래프의 시작점 정의
 builder.set_entry_point("quiz")
